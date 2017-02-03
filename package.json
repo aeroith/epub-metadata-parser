@@ -1,0 +1,31 @@
+{
+  "name": "epub-metadata-parser",
+  "version": "1.0.0",
+  "description": "Parse metadata and book cover from epub files",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "node ./example/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aeroith/epub-metadata-parser.git"
+  },
+  "keywords": [
+    "epub"
+  ],
+  "author": "Serhat Cillidag",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aeroith/epub-metadata-parser/issues"
+  },
+  "homepage": "https://github.com/aeroith/epub-metadata-parser#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "mkdirp": "^0.5.1",
+    "unzip": "^0.1.11",
+    "xml2js": "^0.4.17"
+  }
+}
