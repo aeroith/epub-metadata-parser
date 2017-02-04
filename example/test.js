@@ -1,4 +1,4 @@
 var parser = require("../lib/epub-metadata-parser");
-parser("./tester.epub", function (book) {
+parser(__dirname + "/tester.epub", function (book) {
     console.log(book);
 });
