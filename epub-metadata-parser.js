@@ -38,8 +38,6 @@ function xmlParser() {
         fs.readFile(__dirname + "/" + bookData.content, function (err, data) {
             if (err) reject(err);
             parser.parseString(data, function (err, result) {
-                console.log(result);
-                console.log(bookData.content);
                 var jsondata = JSON.parse(JSON.stringify(result));
                 var book = convArr(jsondata.package.metadata);
                 var cover = _.filter(book.meta, (i) => i["$"].name === "cover");
