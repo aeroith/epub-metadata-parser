@@ -2,8 +2,8 @@
 
 ## Introduction 
 Use it to parse metadata and book cover(if available) from epub files, where you can use it in your applications.
-Outputs a simplified JSON file. Will put the files in the folders "./Books/Author Name/Book Name".
-Works in similar fashion to calibredb from Calibre.
+Outputs a simplified JSON file. Will put the files in the folders given by the user appended by
+ "/Books/Author Name/Book Name". Works in similar fashion to calibredb from Calibre.
 
 ## Requirements
 
@@ -11,12 +11,13 @@ Depends on lodash, mkdirp, yauzl, xml2js packages. You can subtitute similar one
 
 ## Usage
 
-You can extract json file as simple as: 
+You can extract json file as simple as in the example below. Also note that second argument outDir defaults to
+current directory if no arguments were given.
 
 ```javascript
 
 var epubParser = require("epub-metadata-parser");
-epubParser.parse("./tester.epub", function (book) {
+epubParser.parse("./tester.epub", "../Documents" , function (book) {
     console.log(book);
 });
 
