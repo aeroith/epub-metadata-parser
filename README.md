@@ -16,7 +16,7 @@ You can extract json file as simple as:
 ```javascript
 
 var epubParser = require("epub-metadata-parser");
-epubParser.parse(__dirname + "./tester.epub", function (book) {
+epubParser.parse("./tester.epub", function (book) {
     console.log(book);
 });
 
