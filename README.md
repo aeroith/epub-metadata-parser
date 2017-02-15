@@ -11,8 +11,7 @@ Depends on lodash, mkdirp, yauzl, xml2js packages. You can subtitute similar one
 
 ## Usage
 
-You can extract json file as simple as given in the example below. Also note that second argument outDir defaults to
-current directory if no arguments were given.
+You can extract json file as simple as given in the example below.
 
 ```javascript
 
