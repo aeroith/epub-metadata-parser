@@ -27,12 +27,7 @@ The outputted JSON file has these properties (cover is undefined if not found):
 ```javascript
 { author: 'Lewis Carroll',
   title: 'Alice\'s Adventures in Wonderland',
-  description: "Alice\'s Adventures in Wonderland (1865) is a novel written by English author Charles Lutwidge Dodgson, better known under the pseudonym L\n
-ewis Carroll. It tells the story of a girl named Alice who falls down a rabbit-hole into a fantasy world populated by peculiar and anthropomorphic creatur\n
-es.\r\nThe tale is filled with allusions to Dodgson\'s friends (and enemies), and to the lessons that British schoolchildren were expected to memorize. Th\n
-e tale plays with logic in ways that have made the story of lasting popularity with adults as well as children. It is considered to be one of the most cha\n
-racteristic examples of the genre of literary nonsense, and its narrative course and structure has been enormously influential, mainly in the fantasy genr\n
-e.",
+  description: "Alice\'s Adventures in Wonderland (1865) is a novel written by English author Charles Lutwidge Dodgson, better known under the pseudonym Lewis Carroll. It tells the story of a girl named Alice who falls down a rabbit-hole into a fantasy world populated by peculiar and anthropomorphic creatures.\r\nThe tale is filled with allusions to Dodgson\'s friends (and enemies), and to the lessons that British schoolchildren were expected to memorize. The tale plays with logic in ways that have made the story of lasting popularity with adults as well as children. It is considered to be one of the most characteristic examples of the genre of literary nonsense, and its narrative course and structure has been enormously influential, mainly in the fantasy genre.",
   cover: 'book-cover',
   subject: [ 'Fiction', 'Fantasy', 'Juvenile' ],
   language: 'en',
