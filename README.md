@@ -1,7 +1,7 @@
 # epub-metadata-parser
 
 ## Introduction 
-Use it to parse metadata and extract book cover(if available) from epub files, where you can use it in your applications.
+Use it to parse metadata and extract book cover(if available) from epub files so that you can use it in your applications.
 Outputs a simplified JSON file. Will put the files in the folders given by the user appended by
  "/Books/Author Name/Book Name". Works in similar fashion to calibredb from Calibre. Only epub files are
  supported and the files must comply with IDPF Open Packaging Format Specification.
@@ -27,12 +27,12 @@ The outputted JSON file has these properties (cover is undefined if not found):
 ```javascript
 { author: 'Lewis Carroll',
   title: 'Alice\'s Adventures in Wonderland',
-  description: 'Alice\'s Adventures in Wonderland (1865) is a novel written by English author Charles Lutwidge Dodgson, better known under the pseudonym L
-ewis Carroll. It tells the story of a girl named Alice who falls down a rabbit-hole into a fantasy world populated by peculiar and anthropomorphic creatur
-es.\r\nThe tale is filled with allusions to Dodgson\'s friends (and enemies), and to the lessons that British schoolchildren were expected to memorize. Th
-e tale plays with logic in ways that have made the story of lasting popularity with adults as well as children. It is considered to be one of the most cha
-racteristic examples of the genre of literary nonsense, and its narrative course and structure has been enormously influential, mainly in the fantasy genr
-e.',
+  description: "Alice\'s Adventures in Wonderland (1865) is a novel written by English author Charles Lutwidge Dodgson, better known under the pseudonym L\n
+ewis Carroll. It tells the story of a girl named Alice who falls down a rabbit-hole into a fantasy world populated by peculiar and anthropomorphic creatur\n
+es.\r\nThe tale is filled with allusions to Dodgson\'s friends (and enemies), and to the lessons that British schoolchildren were expected to memorize. Th\n
+e tale plays with logic in ways that have made the story of lasting popularity with adults as well as children. It is considered to be one of the most cha\n
+racteristic examples of the genre of literary nonsense, and its narrative course and structure has been enormously influential, mainly in the fantasy genr\n
+e.",
   cover: 'book-cover',
   subject: [ 'Fiction', 'Fantasy', 'Juvenile' ],
   language: 'en',
