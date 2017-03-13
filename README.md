@@ -12,12 +12,13 @@ Depends on lodash, mkdirp, yauzl, xml2js packages. You can subtitute similar one
 
 ## Usage
 
-You can extract json file as simple as given in the example below.
+You can extract json file as simple as given in the example below. Note that the first argument is the input file
+and the second argument is the output directory.
 
 ```javascript
 
-var epubParser = require("epub-metadata-parser");
-epubParser.parse("./tester.epub", "../Documents" , function (book) {
+var epubParser = require('epub-metadata-parser');
+epubParser.parse('./tester.epub', '../Documents' , book => {
     console.log(book);
 });
 
@@ -37,6 +38,6 @@ The outputted JSON file has these properties (cover is undefined if not found):
 ```
 
 ## Bugs
-    After testing the parser with over 2000 books, it seems now 
-    stable and handles errors correctly however, any bug reports are most welcomed. 
+After testing the parser with over 2000 books, it seems now 
+stable and handles errors correctly however, any bug reports are most welcomed. 
 
