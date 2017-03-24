@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "node ./example/test.js"
+    "test": "nyc ./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -27,5 +27,12 @@
     "mkdirp": "^0.5.1",
     "xml2js": "^0.4.17",
     "yauzl": "^2.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nyc": "^10.1.2",
+    "rimraf": "^2.6.1"
   }
 }
